@@ -1,8 +1,7 @@
 # SSL-HAR Reliability
 
-Code for our IMU-based human activity recognition project using UCI-HAR, HHAR, PAMAP2, and MotionSense.
+Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, PAMAP2, and MotionSense.
 
-The goal of this repository is simple: keep the main experiments easy to understand and easy to run.
 
 ## Included
 
@@ -14,11 +13,6 @@ The goal of this repository is simple: keep the main experiments easy to underst
 - Experiment runners in `scripts/`
 - Reference notebooks in `notebooks/reference/`
 
-## Not Included
-
-- Raw datasets
-- Paper manuscript sources
-- Dataset download automation
 
 ## Main Experiments
 
@@ -97,3 +91,13 @@ python scripts/run_supervised_baseline.py \
 ## Outputs
 
 By default, experiment outputs are written to `output/`. This includes summary tables, JSON files, saved checkpoints, and transfer or transition summaries.
+
+## Dataset URL:
+
+- Heterogeneity Human Activity Recognition (HHAR): https://archive.ics.uci.edu/dataset/344/heterogeneity+activity+recognition
+
+- UCI Human Activity Recognition (UCIHAR): https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
+
+- PAMAP2 Physical Activity Monitoring dataset (PAMAP2): https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
+
+- MotionSense: https://github.com/mmalekzadeh/motion-sense/tree/master/data
