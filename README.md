@@ -11,7 +11,7 @@ Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, P
   - exact subject-wise split
 - Shared SSL and supervised training code
 - Experiment runners in `scripts/`
-- Reference notebooks in `notebooks/reference/`
+- Reference notebooks in `notebooks/`
 
 
 ## Main Experiments
@@ -84,7 +84,7 @@ python scripts/run_supervised_baseline.py \
 
 - `ssl_har_reliability/`: models, datasets, training, metrics, and analysis code
 - `scripts/`: runnable entry points for the main experiments
-- `configs/paper/`: ready-to-use experiment settings
+- `configs/`: ready-to-use experiment settings
 - `docs/`: short notes on outputs and reproduction
 - `notebooks/reference/`: notebook versions kept for reference
 
