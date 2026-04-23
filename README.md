@@ -3,7 +3,7 @@
 Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, PAMAP2, and MotionSense.
 
 
-## Included
+## Contents
 
 - Python package code under `ssl_har_reliability/`
 - Subject-wise evaluation code for the two main setups:
