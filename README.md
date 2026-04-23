@@ -14,9 +14,9 @@ Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, P
 - Reference notebooks in `notebooks/`
 
 
-## Main Experiments
+## Experiments
 
-The main commands are:
+The commands are:
 
 - `scripts/run_ssl_experiment.py`
   - `configs/paper/subjectwise_balanced.json`
@@ -45,7 +45,7 @@ Download the raw datasets separately and point the scripts to these paths:
 
 The scripts expect the datasets to already be extracted in their original folder structures.
 
-## Example Commands
+## Commands
 
 Balanced subject-wise SSL:
 
