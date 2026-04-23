@@ -1,0 +1,11 @@
+{
+  "protocol": "exact",
+  "seed": 42,
+  "methods": ["simclr", "tstcc", "tfc", "softclt"],
+  "batch_size": 256,
+  "pretrain_epochs": 100,
+  "finetune_epochs": 50,
+  "run_transition": true,
+  "run_transfer": true,
+  "output_dir": "output/subjectwise_exact"
+}

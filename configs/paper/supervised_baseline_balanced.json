@@ -1,0 +1,8 @@
+{
+  "protocol": "balanced",
+  "seeds": [7, 19, 42],
+  "batch_size": 256,
+  "epochs": 50,
+  "output_dir": "output/supervised_baseline_balanced"
+}
+

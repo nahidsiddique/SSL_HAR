@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssl-har-reliability"
+version = "0.1.0"
+description = "Official code release for the SSL-HAR reliability paper"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "scipy",
+  "torch>=2.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["ssl_har_reliability*"]
