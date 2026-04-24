@@ -5,7 +5,6 @@ Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, P
 
 ## Contents
 
-- Python package code under `ssl_har_reliability/`
 - Subject-wise evaluation code for the two main setups:
   - balanced subject-wise split
   - exact subject-wise split
@@ -34,7 +33,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Dataset Layout
+## Dataset
 
 Download the raw datasets separately and point the scripts to these paths:
 
@@ -43,7 +42,16 @@ Download the raw datasets separately and point the scripts to these paths:
 - `--pamap2-root`: extracted `PAMAP2_Dataset/`
 - `--motionsense-root`: extracted `DeviceMotion_data/`
 
-The scripts expect the datasets to already be extracted in their original folder structures.
+## Dataset URL:
+
+- Heterogeneity Human Activity Recognition (HHAR): https://archive.ics.uci.edu/dataset/344/heterogeneity+activity+recognition
+
+- UCI Human Activity Recognition (UCIHAR): https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
+
+- PAMAP2 Physical Activity Monitoring dataset (PAMAP2): https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
+
+- MotionSense: https://github.com/mmalekzadeh/motion-sense/tree/master/data
+
 
 ## Commands
 
@@ -92,12 +100,3 @@ python scripts/run_supervised_baseline.py \
 
 By default, experiment outputs are written to `output/`. This includes summary tables, JSON files, saved checkpoints, and transfer or transition summaries.
 
-## Dataset URL:
-
-- Heterogeneity Human Activity Recognition (HHAR): https://archive.ics.uci.edu/dataset/344/heterogeneity+activity+recognition
-
-- UCI Human Activity Recognition (UCIHAR): https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
-
-- PAMAP2 Physical Activity Monitoring dataset (PAMAP2): https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
-
-- MotionSense: https://github.com/mmalekzadeh/motion-sense/tree/master/data
