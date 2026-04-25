@@ -94,7 +94,7 @@ python scripts/run_supervised_baseline.py \
 - `scripts/`: runnable entry points for the main experiments
 - `configs/`: ready-to-use experiment settings
 - `docs/`: short notes on outputs and reproduction
-- `notebooks/reference/`: notebook versions kept for reference
+- `notebooks/`: notebook versions kept for reference
 
 ## Outputs
 
