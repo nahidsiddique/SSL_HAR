@@ -90,7 +90,7 @@ python scripts/run_supervised_baseline.py \
 
 ## Repository Layout
 
-- `ssl_har_reliability/`: models, datasets, training, metrics, and analysis code
+- `ssl_har_reliability/`: models, data, training, metrics, analysis, and code
 - `scripts/`: runnable entry points for the main experiments
 - `configs/`: ready-to-use experiment settings
 - `docs/`: short notes on outputs and reproduction
