@@ -18,10 +18,10 @@ Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, P
 The commands are:
 
 - `scripts/run_ssl_experiment.py`
-  - `configs/paper/subjectwise_balanced.json`
-  - `configs/paper/subjectwise_exact.json`
+  - `configs/subjectwise_balanced.json`
+  - `configs/subjectwise_exact.json`
 - `scripts/run_supervised_baseline.py`
-  - `configs/paper/supervised_baseline_balanced.json`
+  - `configs/supervised_baseline_balanced.json`
 
 Together these cover the two SSL settings and the balanced supervised baseline used in the project.
 
@@ -59,7 +59,7 @@ Balanced subject-wise SSL:
 
 ```bash
 python scripts/run_ssl_experiment.py \
-  --config configs/paper/subjectwise_balanced.json \
+  --config configs/subjectwise_balanced.json \
   --ucihar-root /path/to/UCI\ HAR\ Dataset \
   --hhar-root /path/to/Activity\ recognition\ exp \
   --pamap2-root /path/to/PAMAP2_Dataset \
@@ -70,7 +70,7 @@ Exact subject-wise SSL:
 
 ```bash
 python scripts/run_ssl_experiment.py \
-  --config configs/paper/subjectwise_exact.json \
+  --config configs/subjectwise_exact.json \
   --ucihar-root /path/to/UCI\ HAR\ Dataset \
   --hhar-root /path/to/Activity\ recognition\ exp \
   --pamap2-root /path/to/PAMAP2_Dataset \
@@ -81,7 +81,7 @@ Balanced supervised baseline:
 
 ```bash
 python scripts/run_supervised_baseline.py \
-  --config configs/paper/supervised_baseline_balanced.json \
+  --config configs/supervised_baseline_balanced.json \
   --ucihar-root /path/to/UCI\ HAR\ Dataset \
   --hhar-root /path/to/Activity\ recognition\ exp \
   --pamap2-root /path/to/PAMAP2_Dataset \
