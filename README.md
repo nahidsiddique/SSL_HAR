@@ -33,24 +33,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Dataset
+## Datasets
 
-Download the raw datasets separately and point the scripts to these paths:
+Download each dataset and point the scripts to the extracted folder:
 
-- `--ucihar-root`: extracted `UCI HAR Dataset/`
-- `--hhar-root`: extracted `Activity recognition exp/`
-- `--pamap2-root`: extracted `PAMAP2_Dataset/`
-- `--motionsense-root`: extracted `DeviceMotion_data/`
-
-## Dataset URL:
-
-- Heterogeneity Human Activity Recognition (HHAR): https://archive.ics.uci.edu/dataset/344/heterogeneity+activity+recognition
-
-- UCI Human Activity Recognition (UCIHAR): https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
-
-- PAMAP2 Physical Activity Monitoring dataset (PAMAP2): https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
-
-- MotionSense: https://github.com/mmalekzadeh/motion-sense/tree/master/data
+- **UCI Human Activity Recognition (UCI-HAR)** (`--ucihar-root`): https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
+- **Heterogeneity Human Activity Recognition (HHAR)** (`--hhar-root`): https://archive.ics.uci.edu/dataset/344/heterogeneity+activity+recognition
+- **PAMAP2 Physical Activity Monitoring (PAMAP2)** (`--pamap2-root`): https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
+- **MotionSense** (`--motionsense-root`): https://github.com/mmalekzadeh/motion-sense/tree/master/data
 
 
 ## Commands
