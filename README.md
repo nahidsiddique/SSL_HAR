@@ -1,13 +1,13 @@
 # SSL-HAR Reliability
 
-Code for the IMU-based human activity recognition project using UCI-HAR, HHAR, PAMAP2, and MotionSense.
+This repository contains the code for examining how reliably SSL-pretrained encoders perform for IMU-based human activity recognition (HAR) when evaluated on unseen subjects, using four public datasets (UCI-HAR, HHAR, PAMAP2, and MotionSense) and evaluating models not only on classification accuracy but also on calibration (ECE, NLL, Brier score) and conformal coverage, comparing SSL pretraining against fully supervised baselines under two subject-wise split strategies. 
 
 
 ## Contents
 
 - Subject-wise evaluation code for the two main setups:
-  - balanced subject-wise split
-  - exact subject-wise split
+  - balanced subject-wise split: equal subject counts per dataset per fold
+  - exact subject-wise split: uses each dataset's original per-subject counts
 - Shared SSL and supervised training code
 - Experiment runners in `scripts/`
 - Reference notebooks in `notebooks/`
